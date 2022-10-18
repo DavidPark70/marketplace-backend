@@ -5,7 +5,8 @@
 - pip install -U Flask
 - pip install flask-restful
     
-## You'll need to create a db_connections.py file to connect to your local mySQL DB
+## Notes:
+- You'll need to create a db_connections.py file to connect to your local mySQL DB
 - Here's the connections code:
 db = mysql.connector.connect(
         host="localhost",
